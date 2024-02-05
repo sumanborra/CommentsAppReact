@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #ffffff;
+  padding: 30px;
+  min-height: 100vh;
+  box-shadow: 0px 0px 2px;
+  font-family: 'Roboto';
+}
+.card-container {
+  background-color: transparent;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 56px;
+}
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.image-card {
+  order: 1;
+  margin-left: 180px;
+  height: 450px;
+  width: 450px;
+}
+.para {
+  font-size: 24px;
+  color: #475569;
+}
+.input-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  height: 35px;
+  width: 350px;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+.textarea-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #1e293b;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: 600;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.buttn {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  padding: 2px;
+  color: #dee0e3;
+  border-width: 0px;
+  border-radius: 8px;
+  height: 40px;
+  width: 120px;
+}
+.horizantal-line {
+  border: 2px solid #cbd2d9;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.count-para {
+  background-color: #0284c7;
+  color: #cbd2d9;
+  padding: 4px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}
+.count-comment-container {
+  display: flex;
+  align-items: center;
+}
+.count-description {
+  font-size: 18px;
+  margin-left: 5px;
+  color: #1e293b;
+}
